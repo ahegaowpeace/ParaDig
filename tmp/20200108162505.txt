@@ -1,0 +1,25 @@
+
+; <<>> DiG 9.8.2rc1-RedHat-9.8.2-0.17.rc1.el6 <<>> @10.57.83.117 example.co.jp soa
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16685
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;example.co.jp.			IN	SOA
+
+;; ANSWER SECTION:
+example.co.jp.		86400	IN	SOA	ns.example.co.jp. mx.example.co.jp. 0 86400 3600 604800 10800
+
+;; AUTHORITY SECTION:
+example.co.jp.		86400	IN	NS	ns.example.co.jp.
+
+;; ADDITIONAL SECTION:
+ns.example.co.jp.	86400	IN	A	10.57.83.117
+
+;; Query time: 1 msec
+;; SERVER: 10.57.83.117#53(10.57.83.117)
+;; WHEN: Wed Jan  8 16:25:10 2020
+;; MSG SIZE  rcvd: 103
+
